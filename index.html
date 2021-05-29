@@ -1,0 +1,53 @@
+<html lang = en>
+<head>
+	<title>
+		Enrollment 
+	</title>
+
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+		crossorigin="anonymous">  	
+	</script>
+
+	<script 
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+		crossorigin="anonymous">
+	</script>
+
+	<script 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+		crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="custom.css">
+
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<div class = "container" >
+		<h1> Admission Application </h1>
+
+		<form action="processor.php" method="post" onsubmit = "go_click()">
+			<label>Name</label>
+			<input type="text" name="name" id= "name">
+			<br> <br>
+			<label>Department:</label>
+			<input type="text" name="dept" id = "dept">
+			<br> <br>
+			<label>Major: </label>
+			<input type="text" name="major" id ="major">
+			<br> <br>
+			
+			<input type="submit" value = "Submit">
+			
+			<!--<button type="button" class = "continue" id="benjamin" name="button" onclick="go_click()">Go</button>-->
+		</form>
+	</div>
+</body>
+</html>
